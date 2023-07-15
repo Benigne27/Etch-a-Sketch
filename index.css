@@ -1,0 +1,61 @@
+.all-container{
+    height: 100vh;
+}
+.drawing-pad{
+    width: 360px;
+    height: 360px;
+    display: grid;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px 3px rgba(128, 128, 128, 0.548);
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#black{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+    border: none;
+}
+#gray{
+    padding: 5px 10px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+
+    border: none;
+}
+#erasor{
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border: 1px solid black;
+}
+#random{
+    padding: 5px 10px;
+    background-image: linear-gradient(to right,orange, green, red, blue, pink, yellow);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+#reset{
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border: 1px solid black;
+}
+.buttons{
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px 10px 5px 0;
+}
+.drawing-pad{
+    margin-top: 10px;
+}
